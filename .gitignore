@@ -1,0 +1,22 @@
+# Raw data (~103 GB) and supplementary reports -- download separately, see README.md
+Dataset/
+Appendices/
+
+# Python environment and caches
+.venv/
+__pycache__/
+*.pyc
+
+# Generated outputs (rebuild with run_pipeline.py)
+artifacts/
+*.out
+
+# Outputs of the early exploration scripts
+human_readable_dataset_catalog.csv
+master_dataset_index.csv
+unified_fault_features.csv
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
